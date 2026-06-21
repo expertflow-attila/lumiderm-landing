@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import SplashScreen from './components/SplashScreen'
+import CosmicBackground from './components/CosmicBackground'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import Marquee from './components/Marquee'
@@ -26,6 +27,7 @@ export default function App() {
 
   return (
     <div className="relative w-full bg-black font-sans antialiased">
+      <CosmicBackground />
       {!splashComplete && <SplashScreen onComplete={handleComplete} />}
       <Navbar isActive={splashComplete} />
       <main>

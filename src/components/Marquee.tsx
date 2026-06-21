@@ -11,7 +11,7 @@ const PARTNERS = [
 
 export default function Marquee() {
   return (
-    <section className="border-y border-white/10 bg-black py-10 md:py-12">
+    <section className="border-y border-white/10 py-10 md:py-12">
       <p className="mb-8 text-center text-[11px] uppercase tracking-[0.25em] text-white/40">
         Elismert partnereink és szakmai háttér
       </p>

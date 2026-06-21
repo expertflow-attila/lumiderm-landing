@@ -35,7 +35,7 @@ export default function ResultsSection() {
   const { ref, inView } = useInView<HTMLDivElement>(0.3)
 
   return (
-    <section id="eredmenyek" className="scroll-mt-28 bg-black px-6 py-28 md:py-40">
+    <section id="eredmenyek" className="scroll-mt-28 px-6 py-28 md:py-40">
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-14 lg:grid-cols-2 lg:gap-24">
         {/* Visual */}
         <Reveal>

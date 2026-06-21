@@ -40,7 +40,7 @@ const TREATMENTS: Treatment[] = [
 
 export default function TreatmentsSection() {
   return (
-    <section id="kezelesek" className="scroll-mt-28 bg-[#050507] px-6 py-28 md:py-40">
+    <section id="kezelesek" className="scroll-mt-28 px-6 py-28 md:py-40">
       <div className="mx-auto max-w-7xl">
         <Reveal className="mb-16 flex flex-col items-start justify-between gap-6 md:mb-24 md:flex-row md:items-end">
           <div className="max-w-2xl">

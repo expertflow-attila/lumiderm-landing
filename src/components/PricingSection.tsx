@@ -47,7 +47,7 @@ const PLANS: Plan[] = [
 
 export default function PricingSection() {
   return (
-    <section id="csomagok" className="scroll-mt-28 bg-black px-6 py-28 md:py-40">
+    <section id="csomagok" className="scroll-mt-28 px-6 py-28 md:py-40">
       <div className="mx-auto max-w-7xl">
         <Reveal className="mb-16 text-center md:mb-20">
           <span className="inline-flex items-center gap-2.5 text-[11px] uppercase tracking-[0.28em] text-[#5794E2]">

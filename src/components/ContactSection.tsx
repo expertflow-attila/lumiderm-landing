@@ -18,7 +18,7 @@ export default function ContactSection() {
   }
 
   return (
-    <section id="kapcsolat" className="scroll-mt-28 bg-[#050507] px-6 py-28 md:py-40">
+    <section id="kapcsolat" className="scroll-mt-28 px-6 py-28 md:py-40">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-24">
         {/* Left — copy + contacts */}
         <Reveal>

@@ -23,7 +23,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="border-t border-white/10 bg-black px-6 pb-10 pt-20 md:pt-24">
+    <footer className="border-t border-white/10 bg-black/40 px-6 pb-10 pt-20 md:pt-24 backdrop-blur-sm">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-2 gap-10 md:grid-cols-5 md:gap-8">
           {/* Brand */}
